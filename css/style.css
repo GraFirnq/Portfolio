@@ -1,0 +1,369 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* { 
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    background-color: #0a0908;
+}
+
+/* nav list */
+
+.nav-list__item {
+    color: #fff;
+}
+
+.nav-img {
+    margin-left: 6.5px;
+    /* margin-top: px; */
+    width: 25px;
+    height: 25px;
+    
+}
+
+.nav {
+    padding: 20px 0;
+    /* border-bottom: 1px solid #000;
+    border-image: linear-gradient(white, black, white) 10 stretch; */
+    /* color: white; */
+    letter-spacing: normal;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px 120px;
+}
+
+.logo {
+    margin-right: auto;
+    color: var(--header-text);
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo strong {
+    font-weight: 700;
+}
+
+.nav-list {
+
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.nav-list__link:hover {
+    opacity: 0.8;
+}
+
+.nav-list__link--active {
+    position: relative;
+}
+
+.nav-list__link--active::before {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+    display: block;
+    height: 2px;
+    width: 100%;
+}
+
+.dev-img {
+    width: 30px;
+    height: 30px;
+}
+
+.github {
+    margin-left: 5px;
+    margin-top: 4.5px;
+    width: 25px;
+    height: 25px;
+}
+
+/* Header */
+
+.header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 160px 490px;
+    width: 1000px;
+    height: 500px;
+}
+.header-text {
+    font-size: 20px;
+    padding-left: 80px;
+    padding-top: 170px;
+    text-align: center;
+    padding: auto;
+    height: 100%;
+    width: 50%;
+
+}
+.header-img {
+    width: 25px;
+    height: 25px;
+}
+
+.header-avatar {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* Project */
+
+/* .Project { 
+    margin: 150px 250px;
+    width: 1090px;
+    height: 320px;
+    background-color: #0a0908;
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.Project-list {
+    column-gap: 10px;
+    margin: 150px 250px;
+    width: 1090px;
+    height: 320px;
+    background-color: #0a0908;
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.text-project {
+    background-color: #0a0908;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+
+    
+}
+
+.about-project { 
+    color:gray;
+    padding-top: 20px;
+
+}
+
+.image-project {
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 545px;
+    height: 320px;
+}
+
+.hueta {
+    padding-top: 20px;
+}
+
+a.button-Live {
+    width: 150px;
+    height: 39px;
+    background: #0a0908;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    margin: 55px;
+}
+
+a.button-Git {
+    background: #0a0908;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 10px;
+    width: 150px;
+    height: 39px;
+    color: #fff;
+    display: inline-block;
+    margin: 40px;
+} */
+
+/* test */
+
+/* .Project {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 100px 450px;
+    width: 990px;
+    height: 300px;
+    background-color: #0a0908;
+    
+}
+
+.Project-Text {
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    background-color: #0a0908;
+}
+
+.about-project {
+    padding-top: 25px;
+    color: gray;
+}
+
+.hueta {
+    padding-top: 20px;
+}
+
+a.button-Live {
+    padding-top: 6px;
+    width: 150px;
+    height: 39px;
+    background: #0a0908;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    margin: 55px;
+}
+
+a.button-Git {
+    padding-top: 6px;
+    text-align: center;
+    background: #0a0908;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 10px;
+    width: 150px;
+    height: 39px;
+    color: #fff;
+    display: inline-block;
+    margin: 20px;
+} 
+
+.image-project {
+    border-radius: 15px;
+    margin-left: 30px;
+    width: 545px;
+    height: 320px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-project {
+    width: 470px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.project-list {
+    width: 50%;
+    height: 100%;
+
+}
+
+.project { 
+    height: 390px;
+    width: 1090px;
+    display: flex;
+    padding: 10px;
+    margin: 140px 400px;
+    background-color: #0a0908;
+}
+
+.text-project {
+
+}
+
+.text-p {
+    padding-top: 25px;
+    display: flex;
+    color: gray;
+}
+
+.live {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+.about-project {
+    margin: auto;
+    text-align: center;
+}
+
+.button-Git-Live { 
+    margin: auto;
+    text-align: center;
+    padding-top: 170px ;
+    padding-left: 45px;
+
+
+    display: flex;
+    row-gap: 10px;
+    column-gap: 100px;
+
+}
+
+a.button-Live {
+    color: white;
+    width: 150px;
+    height: 39px;
+    background: #0a0908;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 10px;
+
+   
+}
+
+a.button-Git {
+    color: white;
+    width: 150px;
+    height: 39px;
+    background: #0a0908;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 10px;
+
+} 
+
+.images-projects { 
+    width: 600px;
+    height: 372px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
