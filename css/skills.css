@@ -21,7 +21,7 @@ h1{
   width: 900px; 
   height: 400px;
   background: #0a0908;
-  box-shadow: 5px 5px 20px #0a0908;
+  box-shadow: 1px 1px 20px white;
   border-radius: 10px;
   margin-bottom: 100px;
 }
